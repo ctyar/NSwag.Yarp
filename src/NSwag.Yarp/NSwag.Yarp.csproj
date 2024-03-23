@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <OpenApiGenerateDocuments>false</OpenApiGenerateDocuments>
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Ctyar.NSwag.Yarp</RootNamespace>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <AnalysisLevel>preview</AnalysisLevel>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Ctyar.NSwag.Yarp</PackageId>
+    <PackageTags>nswag;swagger;swaggerui;discovery;webapi;aspnet;aspnetcore;yarp;reverseproxy</PackageTags>
+    <Title>NSwag.Yarp</Title>
+    <Description>A package to simplify using NSwag behind Yarp.</Description>
+    <Authors>Shahriyar Qulami</Authors>
+    <PackageProjectUrl>https://github.com/ctyar/NSwag.Yarp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ctyar/NSwag.Yarp</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="14.0.4" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
