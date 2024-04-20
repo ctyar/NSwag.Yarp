@@ -33,7 +33,7 @@ stages:
       inputs:
         command: 'build'
         projects: |
-          NSwag.Yarp.slnx
+          NSwag.Yarp.sln
 
     - task: DotNetCoreCLI@2
       displayName: 'Pack'
