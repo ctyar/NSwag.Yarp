@@ -1,5 +1,8 @@
 # NSwag Yarp
 
+[![Build Status](https://ctyar.visualstudio.com/NSwag.Yarp/_apis/build/status%2Fctyar.NSwag.Yarp?branchName=main)](https://ctyar.visualstudio.com/NSwag.Yarp/_build/latest?definitionId=10&branchName=main)
+[![Ctyar.NSwag.Yarp](https://img.shields.io/nuget/v/Ctyar.NSwag.Yarp.svg)](https://www.nuget.org/packages/Ctyar.NSwag.Yarp/)
+
 A package to simplify using NSwag behind YARP.
 
 ## Usage
