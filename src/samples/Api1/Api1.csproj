@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\NSwag.Yarp\Nswag.Yarp.csproj" />
+    <ProjectReference Include="..\..\NSwag.Yarp\NSwag.Yarp.csproj" />
   </ItemGroup>
 
 </Project>
